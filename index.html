@@ -23,29 +23,29 @@
                 <div class="nav-wrapper blue-grey">
                     <a href="#" class="brand-logo">Lee Watterson</a>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li><a href="">Projects</a></li>
-                        <li><a href="">Skills</a></li>
-                        <li><a href="">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#about">About</a></li>
                         <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Contact<i class="material-icons right">arrow_drop_down</i></a></li>
                     </ul>
                 </div>
             </nav>
-      <div class="row">
+      <div class="row" id="about">
         <div class="col s12 m12">
             <div class="card horizontal">
-            <div class="card-image s0 m4">
-                <img src="bookcase.jpg">
+                <div class="card-image s0 m4">
+                    <img src="bookcase.jpg">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <h6>About Me</h6>
+                        <p>I am a web developer from Seattle WA. I am always following my curiosity and I am excited about the potential of technology to solve difficult problems and advance our understanding of ourselves and the world around us. Graduate of an immersive, 14-week coding bootcamp where I learned how to create, collaborate on and deploy full stack projects under challenging time constraints. (Python, MEAN and C#). Other interests include travel, hockey, biking and live music.</p>
+                    </div>
+                </div>
             </div>
-            <div class="card-stacked">
-              <div class="card-content">
-                <h6>About Me</h6>
-                <p>I am a web developer from Seattle WA. I am passionate using technology to create interesting solutions to problems. Graduate of an immersive, 14-week coding bootcamp acquiring a breadth of skills in three full stacks. (Python, MEAN and C#). Other interests include travel, hockey, biking and live music.</p>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row" id="skills">
           <div class="col s12 m4">
             <div class="card blue-grey">
                 <div class="card-content white-text">
@@ -127,45 +127,50 @@
                         </li>
                         <li class="collection-item avatar valign-wrapper">
                             <img src="postman.svg" alt="Django" class="circle">
-                            <p>Other Development Tools: VS Code, Postman, Charts.js, Git, npm</p>
+                            <p>Other Dev Tools: VS Code, Postman, Charts.js, Git, npm</p>
                         </li>
                     </ul>
                 </div>
             </div>
           </div>
       </div>
-      <div class="row">
-        <div class="col s12 push-m2 m8">
-          <div class="slider">
+      <div class="row" id="projects">
+        <div class="col s12 push-m1 m10">
+          <div class="slider z-depth-3">
             <ul class="slides">
+                <li>
+                    <a href="https://github.com/williw3/belt3">
+                    <img src="im3.png" alt="">
+                    <div class="caption center-align">
+                        <h6>Click here to view code</h6>
+                    </a>
+                    </div>
+                </li>
+                <li>
+                    <a href="https://youtu.be/2IkvV3zlnCA">
+                    <img src="4h.png" alt="">
+                    <div class="caption right-align" style="color: black">
+                        <h6>Click here to view code</h6>
+                    </div>
+                    </a>
+                </li>
                 <li>
                     <img src="microscope.jpg" alt="">
                     <div class="caption center-align">
-                        <h6>Tagline Here</h6>
-                        <p>Here is our slogan</p>
-                    </div>
-                </li>
-                <li>
-                    <img src="terrace.jpg" alt="">
-                    <div class="caption right-align" style="color: black">
-                        <h6>Tagline Here</h6>
-                        <p>Here is our slogan</p>
-                    </div>
-                </li>
-                <li>
-                    <img src="bookcase.jpg" alt="">
-                    <div class="caption center-align">
-                            <h6>Tagline Here</h6>
-                            <p>Here is our slogan</p>
+                        <h6></h6>
                     </div>
                 </li>
             </ul>
           </div>
         </div>
       </div>
-      <footer class="page-footer blue-grey">
-          <div class="row">
-              <h6>Contact Me:</h6>
+      <footer class="page-footer blue-grey z-depth-5">
+          <div>
+              <div class="center-align">
+              <a href="https://www.linkedin.com/in/leewatterson/"><img style="width: 40px; margin-right: 3px;" src="linkedin.ico" alt=""></a>
+              <a href="https://github.com/williw3"><img style="width: 40px; margin-left: 3px; margin-right: 3px;" src="Octicons.svg" alt=""></a>
+              <a href="https://stackoverflow.com/users/8701325/lee-watterson"><img style="width: 40px; margin-left: 3px;" src="so.svg" alt=""></a>
+              </div>
           </div>
       </footer>
     </div>
